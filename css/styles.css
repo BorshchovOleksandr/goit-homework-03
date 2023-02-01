@@ -72,7 +72,9 @@ img {
     background-color: #FFFFFF;
 }
 
-.header-nav {}
+.header-nav {
+
+}
 
 .header-logo {}
 
@@ -90,7 +92,9 @@ img {
 
 }
 
-.header-addres {}
+.header-addres {
+  
+}
 
 .header-mail {
     font-style: normal;
@@ -129,9 +133,11 @@ img {
     line-height: calc(60/56);
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 494px;
     padding-top: 188px;
     margin-bottom: 48px;
     color: #FFFFFF;
+    
      
 }
 
@@ -226,7 +232,10 @@ flex-basis: calc(100%/3);
     text-align: center;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 .team-info {}
 
@@ -294,8 +303,11 @@ flex-basis: calc(100%/3);
 }
 .portfolio-btn-list{
     display: flex;
+    justify-content: center;
     margin-top: 168px;
     margin-bottom: 59px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 
@@ -320,6 +332,8 @@ flex-basis: calc(100%/3);
 
 .portfolio-list {
     display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
 }
 
 .portfolio-link{}
