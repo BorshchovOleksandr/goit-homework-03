@@ -329,7 +329,10 @@ img {
     color: #E7E9FC;
 }
 
-.portfolio {}
+.portfolio {
+    padding: 96px 0px 120px 0px;
+
+}
 
 .portfolio-btn-isually-hidden {
     position: absolute;
@@ -347,8 +350,7 @@ img {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 96px;
-    margin-bottom: 59px;
+    margin-bottom: 72px;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -385,7 +387,6 @@ img {
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
 }
 
 .portfolio-link{}
