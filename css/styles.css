@@ -66,6 +66,7 @@ img {
 }
 
 .header {
+    padding: 24px 0;
     background-color: #FFFFFF;
 }
 .header-container { 
@@ -80,7 +81,6 @@ img {
 
 .header-logo {
     display: flex;
-    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -91,7 +91,6 @@ img {
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     display: flex;
-    padding: 24px 0px;
     gap: 40px;
     color: #2E2F42;
 }
@@ -105,7 +104,6 @@ img {
 .header-addres {
     display: flex;
     display: block;
-    padding: 24px 0;
 }
 .header-contacts{
     display: flex;
